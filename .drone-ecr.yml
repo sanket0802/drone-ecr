@@ -9,7 +9,7 @@ steps:
       from_secret: aws_access_key_id
     secret_key:
       from_secret: aws_secret_access_key
-    repo: 301032990450.dkr.ecr.us-east-1.amazonaws.com/ecr-repo1
+    repo: 301032990450.dkr.ecr.us-east-1.amazonaws.com/drone-ecr
     registry: 301032990450.dkr.ecr.us-east-1.amazonaws.com
 - name: ssh commands
   image: appleboy/drone-ssh
