@@ -16,9 +16,10 @@ steps:
   settings:
     host: 54.175.238.108
     username: ubuntu
-    key:
-      from secret: ssh_key
     port: 22
-    script: 
-      - echo "helo"
+    key:
+      from_secret: ssh_key
+      script:
+        - echo hello
+        - echo world
  
