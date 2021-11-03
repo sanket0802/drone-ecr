@@ -14,7 +14,7 @@ steps:
 - name: ssh commands
   image: appleboy/drone-ssh
   settings:
-    host: 3.92.184.21
+    host: 54.175.238.108
     username: ubuntu
     key:
       from secret: ssh_key
